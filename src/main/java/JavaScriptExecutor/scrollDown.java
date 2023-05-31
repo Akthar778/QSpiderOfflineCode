@@ -24,7 +24,6 @@ public class scrollDown {
 		
 		WebElement ele = driver.findElement(By.xpath("//a[@href='https://www.pillpack.com']"));
 		
-		
 		js.executeScript("arguments[0].scrollIntoView(true);",ele);
 		
 		
