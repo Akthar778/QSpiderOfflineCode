@@ -1,0 +1,19 @@
+javascriptExecutor Js = (JavascriptExecutor) driver;
+
+
+entering data into textfiled
+js.executeScript("arguments[0].value='adcedefg'",element]
+
+clear the  text on text filed 
+js.executeScript("arguments[0].value=' '",element]
+
+
+js.executeScript("arguments[0].clck()",element]
+
+
+refresh the paga
+js.executeScript("history.go()")
+
+
+fetching the titile from webpage
+sysout(js.executescript("return document.titile"));
