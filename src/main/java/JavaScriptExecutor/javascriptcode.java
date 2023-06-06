@@ -10,10 +10,10 @@ import graphql.org.antlr.v4.runtime.tree.xpath.XPath;
 
 public class javascriptcode {
 	public static void main(String[] args) throws InterruptedException {
-		
+
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
-		
+
 		WebElement search = driver.findElement(By.className("gLFyf"));
 		WebElement click = driver.findElement(By.xpath("//div[@class='FPdoLc lJ9FBc']//input[@name='btnK']"));
 
@@ -21,7 +21,7 @@ public class javascriptcode {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].value='akthar'",search);
 		Thread.sleep(3000);
-		
+
 		js.executeScript("arguments[0[.click()",click);		
 	}
 
