@@ -19,5 +19,10 @@
     <version>2.11.0</version>
 </dependency>
 
+	<dependency>
+		<groupId>SkillaryOnlineApp</groupId>
+		<artifactId>AppTesting</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
 </dependencies>
 </project>
